@@ -17,9 +17,9 @@ default_args = {
 }
 
 @dag(
-    dag_id='main_dag',
+    dag_id='dag_google_sheet',
     default_args=default_args,
-    description='DAG responsavel pelo ETL do case breweries',
+    description='DAG responsavel pelo ETL dos dados vindos do google',
     schedule_interval=timedelta(days=1),
     catchup=False
 )
