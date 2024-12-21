@@ -23,7 +23,8 @@ services:
       sh -c "
       sleep 10 &&
       mc alias set myminio http://minio:9000 minioadmin minio@1234! &&
-      mc mb myminio/landing
+      mc mb myminio/projetos/bk_ronaldinho/landing
+      mc mb myminio/projetos/nova_drive/landing
       "
 
   postgres-airflow:
