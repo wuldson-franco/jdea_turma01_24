@@ -1,1 +1,1 @@
-# Repositorio da turma 01 Jornada Data Engeniere & Analitcs - 2024
+# Repositorio da turma 01 Jornada Data Engeniere & Analytics - 2024
